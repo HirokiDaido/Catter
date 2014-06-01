@@ -1,0 +1,9 @@
+<apex:page >
+  <apex:includeScript value="{!$Resource.jquery_min_js}"/>
+  <apex:includeScript value="{!$Resource.instagram_js}"/>
+  <apex:includeScript value="{!$Resource.jquery_cookie_js}"/>
+  <apex:includeScript value="{!$Resource.catter_js}"/>
+  <apex:stylesheet value="{!$Resource.catter_css}"/>
+  <chatter:newsfeed />
+  <div class="instagram"></div>
+</apex:page>
